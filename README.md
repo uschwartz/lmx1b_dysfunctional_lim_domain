@@ -1,0 +1,13 @@
+# Proteasome inhibition alleviates proteinuria in Lmx1b knock-in mice with dysfunctional LIM domains
+
+### ABSTRACT
+Mutations in the LMX1B gene, which codes for a transcription factor of the LIM-homeodomain family, have been identified as the cause of the autosomal-dominant disease nail-patella syndrome. It manifests in small or absent patellae and dysplastic or missing toe- and fingernails, but the prognosis of the patients is determined by the development of renal symptoms due to podocyte foot process effacement and defects in the glomerular filtration barrier. The pathogenetic mechanisms leading to podocyte damage and their association with specific mutations in the LMX1B gene are not understood, which has impeded the development of specific therapeutic strategies. Here we identified the pathogenetic mechanism affecting many patients with nail-patella syndrome, provide proof of principle for a novel therapeutic approach and suggest a domain-specific effect in gene regulation by LMX1B. Interestingly, missense mutations in the LIM domains of Lmx1b result in a recessive phenotype in two different knock-in mouse lines due to proteasomal degradation of the mutated proteins. The decreased half-life of the mutated LMX1B proteins was attributed to ubiquitinylation and could be prolonged by two proteasomal inhibitors, one of which was also tested in our mouse models and resulted in an alleviation of the renal symptoms. RNA sequencing of genetically altered podocytes indicated that LMX1B predominantly acts as a transcriptional repressor and furthermore suggested that the two LIM domains contribute to the distinct regulation of LMX1B target genes. We conclude that proteasomal inhibitors, drugs already approved for treatment of patients with multiple myeloma, warrant further studies to prevent renal failure in patients with nail-patella-syndrome caused by mutations in the LIM domains. These studies should be designed to deliver the drug specifically to podocytes and to target specific ubiquitin ligases in order to limit side effects.
+
+
+CODE used to analyse the RNAseq data:
++ 01_nextflow_RNAseq_trim: bash script for QC, mapping and transcript quantification of RNA-seq data
++ 02_Exploratory_analysis, 03_Diff_Exp_H77L_Ctrl_DMSO, 04_Diff_Exp_C118F_Ctrl_DMSO: R scripts for exploratory and differential expression analysis 
++ Figure9: R scripts used for downstream analysis "Differential gene expression in podocytes of Lmx1bH77L/lox and Lmx1bC118F/lox
+knock-in mice"
++ Figure10: R scripts used for downstream analysis: "Treatment with bortezomib partially reverses the effect of mutations in the
+LIM domains"
